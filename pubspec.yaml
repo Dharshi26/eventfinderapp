@@ -1,0 +1,29 @@
+name: eventfinderapp
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  intl: ^0.19.0
+  firebase_auth: ^4.17.4
+  google_fonts: ^6.2.1
+  google_maps_flutter: ^2.5.0
+  provider: ^6.1.2
+  shared_preferences: ^2.2.2
+  image_picker: ^1.0.7
+  add_2_calendar: ^2.1.0
+  flutter_local_notifications: ^16.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
